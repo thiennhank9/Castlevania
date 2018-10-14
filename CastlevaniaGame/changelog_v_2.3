@@ -1,0 +1,37 @@
+﻿K_2.3 -----------------------------------------
+sửa camera (và trong player)
+Maingame: thêm nút chuyển màn (bấm M), MoonWalk (bấm Q)
+sửa vài chi tiết trong map....GO...
+
+K_2.2 --------------------------------------------------
+
+based on "stable_1_LE"
+
+_ Destructible
+_ Brick
+_ whip
+
+_ whipupgrade.cpp
+_ potion.cpp
+
+_ axe.cpp: phần khởi tạo, phần velocity, collider
+_ knife.cpp: collider
+
+
+----------------------------
+_ Player::Injured
+_ Projectile::CollisionObject
+_ GameObject::SlideFromGround
+
+---------------------------
+init health & cập nhật destroy() cho các đối tượng
+_ BlueBat
+_ EnemyFire
+_ Fish (thêm cả init 3 đối số, sửa cả update)
+_ Medusa
+_ Ghoul
+_ Knight
+_ Panther
+_ Redbad (thêm cả init 3 đối số, sửa cả update (thay cách tính đường bay))
+_ Snake
+
